@@ -245,6 +245,7 @@ const CHAIN_INFORMATION = new Map<number, ChainInformation | ChainType>([
     1337,
     {
       id: 1337,
+      nativeCurrency: ETH,
       type: 'local',
       testnet: true,
     },
